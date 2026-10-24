@@ -1,8 +1,8 @@
 <?php
 $host     = '127.0.0.1';
 $dbname   = 'e_mental_health'; 
-$username = 'root';         
-$password = 'password';      
+$username = 'anjani';         
+$password = '1234';      
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
